@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppIntegerVariables", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppThreeVariablesInt", "ConAppThreeVariablesInt\ConAppThreeVariablesInt.csproj", "{80BB9CF2-6D41-40C0-88C8-140D95794EDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppMeanArephmetic", "ConAppMeanArephmetic\ConAppMeanArephmetic.csproj", "{0D48A81E-777B-4E0C-B415-09D484A96407}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{80BB9CF2-6D41-40C0-88C8-140D95794EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80BB9CF2-6D41-40C0-88C8-140D95794EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80BB9CF2-6D41-40C0-88C8-140D95794EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D48A81E-777B-4E0C-B415-09D484A96407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D48A81E-777B-4E0C-B415-09D484A96407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D48A81E-777B-4E0C-B415-09D484A96407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D48A81E-777B-4E0C-B415-09D484A96407}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
