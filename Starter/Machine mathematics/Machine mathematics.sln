@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFApp 8 Button", "WPFApp 8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConApp pi", "ConApp pi\ConApp pi.csproj", "{F483FA25-00E1-467F-ACE3-27881BF3FFF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppThreeVariables", "ConAppThreeVariables\ConAppThreeVariables.csproj", "{3A82C03B-C2EB-4094-B0CF-A5A46DE6883A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F483FA25-00E1-467F-ACE3-27881BF3FFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F483FA25-00E1-467F-ACE3-27881BF3FFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F483FA25-00E1-467F-ACE3-27881BF3FFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A82C03B-C2EB-4094-B0CF-A5A46DE6883A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A82C03B-C2EB-4094-B0CF-A5A46DE6883A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A82C03B-C2EB-4094-B0CF-A5A46DE6883A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A82C03B-C2EB-4094-B0CF-A5A46DE6883A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
