@@ -8,12 +8,12 @@
         Title="MainWindow" Width="800">
     <StackPanel>
         <Button x:Name="Button1" Height="40" Margin="10" Content="byte" Click="Button1_Click"/>
-        <Button x:Name="Button2" Height="40" Margin="10" Content="sbyte"/>
-        <Button x:Name="Button3" Height="40" Margin="10" AutomationProperties.ItemStatus="asd" Content="ushort"/>
-        <Button x:Name="Button4" Height="40" Margin="10" Content="short"/>
+        <Button x:Name="Button2" Height="40" Margin="10" Content="sbyte" Click="Button2_Click"/>
+        <Button x:Name="Button3" Height="40" Margin="10" Content="ushort" Click="Button3_Click"/>
+        <Button x:Name="Button4" Height="40" Margin="10" Content="short" Click="Button4_Click"/>
         <Button x:Name="Button5" Height="40" Margin="10" Content="uint" Click="Button5_Click"/>
-        <Button x:Name="Button6" Height="40" Margin="10" Content="int"/>
-        <Button x:Name="Button7" Height="40" Margin="10" Content="ulong"/>
-        <Button x:Name="Button8" Height="40" Margin="10" Content="long" Click="Button_Click"/>
+        <Button x:Name="Button6" Height="40" Margin="10" Content="int" Click="Button6_Click"/>
+        <Button x:Name="Button7" Height="40" Margin="10" Content="ulong" Click="Button7_Click"/>
+        <Button x:Name="Button8" Height="40" Margin="10" Content="long" Click="Button8_Click" />
     </StackPanel>
 </Window>
