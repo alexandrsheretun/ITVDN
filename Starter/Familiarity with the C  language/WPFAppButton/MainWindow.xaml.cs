@@ -14,7 +14,7 @@ namespace WPFAppButton
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            Textbox1.Text = Textbox.Text;
         }
     }
 }
