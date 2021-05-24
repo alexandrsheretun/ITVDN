@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppPowerTwo", "ConAppPowerTwo\ConAppPowerTwo.csproj", "{9C0DE374-E6B0-4E4D-B4D9-3E187B919345}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConAppPowerTwo", "ConAppPowerTwo\ConAppPowerTwo.csproj", "{9C0DE374-E6B0-4E4D-B4D9-3E187B919345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppDeMorgan", "ConAppDeMorgan\ConAppDeMorgan.csproj", "{7A010C43-A69E-4A5A-AD74-4F54AEAE0394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9C0DE374-E6B0-4E4D-B4D9-3E187B919345}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C0DE374-E6B0-4E4D-B4D9-3E187B919345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C0DE374-E6B0-4E4D-B4D9-3E187B919345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A010C43-A69E-4A5A-AD74-4F54AEAE0394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A010C43-A69E-4A5A-AD74-4F54AEAE0394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A010C43-A69E-4A5A-AD74-4F54AEAE0394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A010C43-A69E-4A5A-AD74-4F54AEAE0394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
