@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppNumberParity", "ConAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppLogicalOperation", "ConAppLogicalOperation\ConAppLogicalOperation.csproj", "{AAAC3A31-8599-4615-830D-C265CDE8F5BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppAgePrize", "ConAppAgePrize\ConAppAgePrize.csproj", "{BEA55AF8-E904-41C3-B905-1641F3CBA58D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AAAC3A31-8599-4615-830D-C265CDE8F5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAAC3A31-8599-4615-830D-C265CDE8F5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAAC3A31-8599-4615-830D-C265CDE8F5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA55AF8-E904-41C3-B905-1641F3CBA58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA55AF8-E904-41C3-B905-1641F3CBA58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA55AF8-E904-41C3-B905-1641F3CBA58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA55AF8-E904-41C3-B905-1641F3CBA58D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
