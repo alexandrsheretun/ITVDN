@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConAppMenuProgram", "ConApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppSumOddLoop", "ConAppSumOddLoop\ConAppSumOddLoop.csproj", "{AE8510F8-AFB8-4B68-BFD1-72B83B407A43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppShape", "ConAppShape\ConAppShape.csproj", "{22321E6E-6D70-4FAF-B28A-00CBAA981E61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AE8510F8-AFB8-4B68-BFD1-72B83B407A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE8510F8-AFB8-4B68-BFD1-72B83B407A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE8510F8-AFB8-4B68-BFD1-72B83B407A43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22321E6E-6D70-4FAF-B28A-00CBAA981E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22321E6E-6D70-4FAF-B28A-00CBAA981E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22321E6E-6D70-4FAF-B28A-00CBAA981E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22321E6E-6D70-4FAF-B28A-00CBAA981E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
