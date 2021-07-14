@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppCalculate", "ConAppCalculate\ConAppCalculate.csproj", "{0E14E198-EF85-4D76-93E8-965031B2E922}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppBank", "ConAppBank\ConAppBank.csproj", "{FD980705-9BE8-411B-B9E2-33D1E77525A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0E14E198-EF85-4D76-93E8-965031B2E922}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E14E198-EF85-4D76-93E8-965031B2E922}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E14E198-EF85-4D76-93E8-965031B2E922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD980705-9BE8-411B-B9E2-33D1E77525A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD980705-9BE8-411B-B9E2-33D1E77525A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD980705-9BE8-411B-B9E2-33D1E77525A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD980705-9BE8-411B-B9E2-33D1E77525A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
