@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppBank", "ConAppBank\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppDelivery", "ConAppDelivery\ConAppDelivery.csproj", "{3CDBE744-27E7-48B3-B47A-749327EF44C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppCalculator", "WinFormsAppCalculator\WinFormsAppCalculator.csproj", "{89830E1B-90D6-4873-A1B7-2DF8BE31582C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3CDBE744-27E7-48B3-B47A-749327EF44C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CDBE744-27E7-48B3-B47A-749327EF44C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CDBE744-27E7-48B3-B47A-749327EF44C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89830E1B-90D6-4873-A1B7-2DF8BE31582C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89830E1B-90D6-4873-A1B7-2DF8BE31582C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89830E1B-90D6-4873-A1B7-2DF8BE31582C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89830E1B-90D6-4873-A1B7-2DF8BE31582C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
