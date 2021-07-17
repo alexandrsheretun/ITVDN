@@ -6,39 +6,54 @@ namespace ConAppMenuProgram
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("###Menu###");
-            Console.WriteLine("View");
-            Console.WriteLine("Info");
-            Console.WriteLine("Edit");
-            Console.Write("\n" + "Change your key : ");
+            string[] array = new string[3];
+            int i = 0;
+
+            array[0] = "View";
+            array[1] = "Edit";
+            array[2] = "Info";
+
             var ch = Console.ReadKey().Key;
-            while(ch != ConsoleKey.Escape);
+
+            while (ch != ConsoleKey.Enter)
+            {
+                ch = Console.ReadKey().Key;
+                array[0] = "View";
+                array[1] = "Edit";
+                array[2] = "Info";
+                Console.Clear();
                 switch (ch)
                 {
-                    case ConsoleKey.RightArrow:
+                    case ConsoleKey.UpArrow:
+                        if (i == 0)
                         {
-                            Console.WriteLine("View");
-                            break;
+                            i = array.Length - 1;
+                            array[i] = "->" + array[i];
+                        }
+                        else
+                        {
+                            i = i - 1;
+                            array[i] = "->" + array[i];
                         }
 
-                    case ConsoleKey.LeftArrow:
+                        break;
+                    case ConsoleKey.DownArrow:
+                        if (i == 2)
                         {
-                            Console.WriteLine("Info");
-                            break;
+                            i = 0;
+                            array[i] = "->" + array[i];
                         }
-                    case ConsoleKey.UpArrow:
+                        else
                         {
-                            Console.WriteLine("Edit");
-                            break;
+                            i = i + 1;
+                            array[i] = "->" + array[i];
                         }
-                    case ConsoleKey.Escape:
-                        {
-                            Console.WriteLine("end program");
-                            break;
-                        }
+                        break;
                 }
-                
+                Console.WriteLine(array[0]);
+                Console.WriteLine(array[1]);
+                Console.WriteLine(array[2]);
+            }
         }
     }
 
